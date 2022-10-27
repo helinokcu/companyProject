@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPANY</title>
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+    </div>
+    <div class="dashboard-body">
+        <div class="dashboard-sidebar">
+
+            <ul class="dashboard-sidebar__nav">
+                <li class="dashboard-sidebar__link dashboard-sidebar__link--current" data-title="Dashboard"
+                    data-id="dashboard">Home</li>
+                <li class="dashboard-sidebar__link" data-title="Requests" data-id="myrequests">Requests</li>
+                <li class="dashboard-sidebar__link" data-title="Login" data-id="vault">Login
+                    <!-- <ul class="dashboard-sidebar__subnav">
+                        <li class="dashboard-sidebar__sublink"></li>
+                    </ul> -->
+                </li>
+                <li class="dashboard-sidebar__link dashboard-sidebar__link--closed" data-title="Settings"
+                    data-id="vault">Settings
+                    <ul class="dashboard-sidebar__subnav">
+                        <!-- <li class="dashboard-sidebar__sublink"></li>
+                        <li class="dashboard-sidebar__sublink"></li> -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dashboard-content">
+            <h1 class="dashboard-content__header"></h1>
+            <div class="dashboard-content__panel dashboard-content__dashboard">Welcome back!</div>
+
+            <div class="dashboard-content__panel dashboard-content__myrequests">
+                <span>
+                    <button>Create Request</button>
+                </span>
+                <div class="panel__request">
+                    <div class="panel__request__content">
+                        <h3>Request 1</h3>
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="panel__request">
+                    <div class="panel__request__content">
+                        <h3>Request 2</h3>
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+
+                <div class="panel__request">
+                    <div class="panel__request__content">
+                        <h3>Reuqest 3</h3>
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
